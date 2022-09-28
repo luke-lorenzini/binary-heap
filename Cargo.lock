@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "priority_queue"
+name = "no_std_binary_heap"
 version = "0.1.0"
