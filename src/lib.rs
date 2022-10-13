@@ -1,6 +1,6 @@
 //! # No Std Binary Heap
 //!
-//! 'no_std_binary_heap' implements a binary heap without using the standard lib.
+//! 'nostbeep' implements a binary heap without using the standard lib.
 //!
 //!
 
@@ -26,7 +26,7 @@ impl<T: Copy + PartialOrd> MaxHeap<T> {
     /// # Examples
     ///
     /// ```
-    /// use no_std_binary_heap::MaxHeap;
+    /// use nostbeep::MaxHeap;
     /// let mut my_heap: MaxHeap<i32> = MaxHeap::new();
     /// assert_eq!(0, my_heap.len());
     /// ```
@@ -42,7 +42,7 @@ impl<T: Copy + PartialOrd> MaxHeap<T> {
     /// # Examples
     ///
     /// ```
-    /// use no_std_binary_heap::MaxHeap;
+    /// use nostbeep::MaxHeap;
     /// let val1 = -3;
     /// let val2 = 17;
     /// let mut my_heap = MaxHeap::new();
@@ -66,7 +66,7 @@ impl<T: Copy + PartialOrd> MaxHeap<T> {
     /// # Examples
     ///
     /// ```
-    /// use no_std_binary_heap::MaxHeap;
+    /// use nostbeep::MaxHeap;
     /// let val1 = 17;
     /// let val2 = -5;
     /// let val3 = 100;
@@ -94,7 +94,7 @@ impl<T: Copy + PartialOrd> MaxHeap<T> {
     /// # Examples
     ///
     /// ```
-    /// use no_std_binary_heap::MaxHeap;
+    /// use nostbeep::MaxHeap;
     /// let mut my_heap = MaxHeap::new();
     /// my_heap.push(17);
     /// my_heap.push(-3);
@@ -109,7 +109,7 @@ impl<T: Copy + PartialOrd> MaxHeap<T> {
     /// # Examples
     ///
     /// ```
-    /// use no_std_binary_heap::MaxHeap;
+    /// use nostbeep::MaxHeap;
     /// let mut my_heap = MaxHeap::new();
     /// my_heap.push(17);
     /// my_heap.push(-3);

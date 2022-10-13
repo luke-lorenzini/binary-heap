@@ -1,5 +1,5 @@
 fn main() {
-    let mut my_heap = no_std_binary_heap::MaxHeap::new();
+    let mut my_heap = nostbeep::MaxHeap::new();
     assert_eq!(0, my_heap.len());
     assert!(my_heap.is_empty());
 

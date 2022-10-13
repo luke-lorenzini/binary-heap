@@ -1,4 +1,4 @@
-use no_std_binary_heap::MaxHeap;
+use nostbeep::MaxHeap;
 
 #[test]
 fn test_new_heap_empty() {

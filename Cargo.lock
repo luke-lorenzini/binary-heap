@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "no_std_binary_heap"
+name = "nostbeep"
 version = "0.1.0"
