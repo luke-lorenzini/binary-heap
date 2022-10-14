@@ -1,13 +1,12 @@
 [package]
 name = "nostbeep"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 
 license = "MIT OR Apache-2.0"
-keywords = ["no_std", "binary heap", "priority queue"]
-categories = ["algorithms"]
+categories = ["algorithms", "no-std"]   
 repository = "https://github.com/luke-lorenzini/binary-heap/"
-description = "A no_std implementation of a binary heap. Binary heap is implemented as a max heap."
+description = "A no_std implementation of a binary heap. Binary Heap is implemented as a max heap."
 readme = "README.md"
 exclude = [
     "src/bin/*",
